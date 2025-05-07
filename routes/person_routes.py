@@ -27,8 +27,25 @@ def add_person(person: Person):
 # Ruta para obtener una persona por su document_number
 @person_router.get("/persons/{person_id}")
 def get_person_by_id(person_id: str):
-    # Buscamos la persona en la base de datos por el document_number
     for person in persons_db:
-        if person.document_number == person_id:  # Compara el document_number con el person_id recibido
-            return person  # Si lo encontramos, devolvemos la persona
-    raise HTTPException(status_code=404, detail="Person not found")  # Si no la encontramos, lanzamos error
+        if person.document_number == person_id:
+            return person
+    raise HTTPException(status_code=404, detail="Person not found")
+
+# ✅ Ruta para actualizar una persona
+@person_router.put("/persons/{person_id}")
+def update_person(person_id: str, updated_person: Person):
+    for index, person in enumerate(persons_db):
+        if person.document_number == person_id:
+            persons_db[index] = updated_person
+            return {"message": "Person updated successfully", "person": updated_person}
+    raise HTTPException(status_code=404, detail="Person not found")
+
+# 🗑️ Ruta para eliminar una persona
+@person_router.delete("/persons/{person_id}")
+def delete_person(person_id: str):
+    for index, person in enumerate(persons_db):
+        if person.document_number == person_id:
+            deleted = persons_db.pop(index)
+            return {"message": "Person deleted successfully", "person": deleted}
+    raise HTTPException(status_code=404, detail="Person not found")
