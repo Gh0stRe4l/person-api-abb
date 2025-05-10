@@ -32,7 +32,7 @@ def get_person_by_id(person_id: str):
             return person
     raise HTTPException(status_code=404, detail="Person not found")
 
-# ✅ Ruta para actualizar una persona
+# Ruta para actualizar una persona
 @person_router.put("/persons/{person_id}")
 def update_person(person_id: str, updated_person: Person):
     for index, person in enumerate(persons_db):
