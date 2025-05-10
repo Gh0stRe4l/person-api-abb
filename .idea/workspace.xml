@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FastAPIProject9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPIProject9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/person_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/person_routes.py" afterDir="false" />
-    </list>
+    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="Agregados métodos PUT y DELETE a person_routes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,12 +91,34 @@
       <option name="presentableId" value="Default" />
       <updated>1746640007781</updated>
       <workItem from="1746640009335" duration="9201000" />
-      <workItem from="1746848087665" duration="582000" />
+      <workItem from="1746848087665" duration="1012000" />
     </task>
+    <task id="LOCAL-00001" summary="Agregados métodos PUT y DELETE a person_routes">
+      <option name="closed" value="true" />
+      <created>1746848837434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746848837434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Agregados métodos PUT y DELETE a person_routes">
+      <option name="closed" value="true" />
+      <created>1746849046237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746849046238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/Gh0stRe4l/person-api-abb" />
+    <MESSAGE value="Agregados métodos PUT y DELETE a person_routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregados métodos PUT y DELETE a person_routes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPIProject9$FastAPIProject9.coverage" NAME="FastAPIProject9 Coverage Results" MODIFIED="1746848318703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
