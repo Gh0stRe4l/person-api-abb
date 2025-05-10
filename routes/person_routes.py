@@ -41,7 +41,7 @@ def update_person(person_id: str, updated_person: Person):
             return {"message": "Person updated successfully", "person": updated_person}
     raise HTTPException(status_code=404, detail="Person not found")
 
-# 🗑️ Ruta para eliminar una persona
+# 🗑 Ruta para eliminar una persona
 @person_router.delete("/persons/{person_id}")
 def delete_person(person_id: str):
     for index, person in enumerate(persons_db):
