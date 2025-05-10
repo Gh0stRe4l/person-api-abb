@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="Agregados métodos PUT y DELETE a person_routes" />
+    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="Agregados métodos PUT y DELETE a person_routes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FastApi-person-abb.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastApi-person-abb.postman_collection.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746640007781</updated>
       <workItem from="1746640009335" duration="9201000" />
-      <workItem from="1746848087665" duration="1012000" />
+      <workItem from="1746848087665" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="Agregados métodos PUT y DELETE a person_routes">
       <option name="closed" value="true" />
@@ -109,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746849046238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregados métodos PUT y DELETE a person_routes">
+      <option name="closed" value="true" />
+      <created>1746849212204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746849212204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -263,6 +263,70 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Actualiza persona",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Juan Arias\",\r\n  \"age\": 19,\r\n  \"document_type\": \"CC\",\r\n  \"document_number\": \"1054860943\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/1054860943",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"1054860943"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar persona",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/1054860943",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"1054860943"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
