@@ -327,6 +327,54 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Ver padres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/009/parents\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"009",
+						"parents\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ver hijos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/persons/1054860945/children",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"persons",
+						"1054860945",
+						"children"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

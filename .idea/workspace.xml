@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="Agregados métodos PUT y DELETE a person_routes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FastApi-person-abb.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FastApi-person-abb.postman_collection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/location_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/location_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/person_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/person_routes.py" afterDir="false" />
-    </list>
+    <list default="true" id="44e12845-2f1d-411d-85a5-857e73649838" name="Changes" comment="Agregados métodos PUT y DELETE a person_routes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <updated>1746640007781</updated>
       <workItem from="1746640009335" duration="9201000" />
       <workItem from="1746848087665" duration="2073000" />
-      <workItem from="1747343954506" duration="3668000" />
+      <workItem from="1747343954506" duration="3996000" />
     </task>
     <task id="LOCAL-00001" summary="Agregados métodos PUT y DELETE a person_routes">
       <option name="closed" value="true" />
